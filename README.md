@@ -16,6 +16,8 @@ All source codes are stored in the src folder, and the sample input file contain
 
 <br>
 How to run?
+<br>
+
 ```bash
 cd src
 python -m main.py
