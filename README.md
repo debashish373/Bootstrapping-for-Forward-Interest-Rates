@@ -6,9 +6,12 @@ How to use the files?<br> <br>
 All source codes are stored in the src folder, and the sample input file contains the market quotes from Bloomberg. The following fields for the bonds need to be input by the user to get a IRR, which is the yield after hedging with Cross Currency Basis Swaps.
 
 <ul>
-  <li>Coupon rate
-  <li>Coupon Frequency
-  <li>Next Coupon Date
+  <li> Coupon rate
+  <li> Coupon Frequency
+  <li> Next Coupon Date
+   <li> Workout Date
+   <li> Trading Price
+      
 </ul>
 
 
