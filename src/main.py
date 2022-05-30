@@ -13,7 +13,7 @@ def run():
     """
     Main function for ParPar/Proceeds yields calculation using the Dual curve approach
     """
-    curves,FX,EUR_USD_XRate,Hist_XRate,p1,p2,p3,dt_=Dataset().prepare_dataset(path=r'../inputs/mkt_data.pickle',date='2022-02-11')
+    curves,FX,EUR_USD_XRate,Hist_XRate,p1,p2,p3,dt_=Dataset().prepare_dataset(path=r'../inputs/sample_mkt_data.pickle',date='2022-02-11')
 
     df=pd.DataFrame(columns=['Date','ISIN','Price','Coupon','Coupon Frequency','Next Coupon Date','Workout date'],index=[0])
     
